@@ -1,0 +1,150 @@
+
+
+h3{
+    color: red;
+    background-color: blueviolet;
+}
+
+#name{
+    color: white;
+    background-color: black;
+}
+
+.name{
+    color: pink;
+    background-color: green;
+}
+
+p.center{
+    color: red;
+    text-align: center;
+}
+
+.colors{
+    /* color: tomato; */
+    /* color: #118a39; */
+    /* color: rgb(255, 99, 71); */
+    color: hsl(9, 100%, 64%);
+}
+
+body{
+    /* background-color: purple;
+    opacity: 0.5; */
+    /* background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover; */
+    /* background: url("images/bg.jpg") no-repeat center fixed ;
+    background-size: cover; */
+
+}
+
+.border{
+   /* border-top-style: dotted;
+   border-bottom-style: groove;
+    color: white;
+    border-width: 5px;
+    border-color: blue; */
+    border: 5px solid red;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.imgborder{
+    border: 5px solid red;
+    color: white;
+    border-radius: 50px;
+}
+
+.marginone{
+    background-color: blue;
+    /* margin-bottom: 50px;
+    margin-left: 50px; */
+}
+
+.margintwo{
+    background-color: aqua;
+    /* margin-top: 50px;px
+    margin-right: 50px; */
+    margin: 50px 80px 10px 100px;
+    /* padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px; */
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+    /* height: 50px; */
+    max-width: 500px;
+    font-size: 20px;
+    text-align: center;
+
+    outline-color: antiquewhite;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-offset: 20px;
+}
+
+.textformate{
+  
+    font-size: 50px;
+    text-align: center;
+    /* text-decoration: line-through; */
+    text-transform: lowercase;
+    /* text-indent: 50px;
+    letter-spacing: 10px; */
+    line-height: 1.8;
+    word-spacing: 50px;
+    text-shadow: 2px 2px 5px white;
+    font-family: 'Babylonica', cursive;
+}
+
+.fa-cart-shopping{
+    color: aqua;
+    /* border-color: blueviolet; */
+    border-width:2px
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    overflow-x:auto;
+  }
+
+  li {
+    display: none;
+    /* visibility: hidden;
+     */
+  }
+
+.overflow{
+    background-color: coral;
+    width: 200px;
+    height: 500px;
+    border: 1px solid;
+    overflow: auto;
+}
+
+h1 img{
+margin-bottom: 50px;
+}
