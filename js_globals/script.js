@@ -7,11 +7,11 @@
 // if
 // if-else
 // else-if
-
 // switch
 // while
 // do-while
 // for
+
 // foreach
 // break
 // continue
@@ -137,3 +137,97 @@ if (age >= 18 && age < 60) {
 } else {
   console.log("Your Baby");
 }
+
+
+// switch
+
+// syntax
+
+// switch (key) {
+//   case value:
+    
+//     break;
+
+//   default:
+//     break;
+// }
+
+// Eg:
+
+// switch ('gopal') {
+//   case 'gopal':
+//     console.log("One");
+//     break;
+//   case 2:
+//     console.log("Two");
+//     break;
+//   case 3:
+//     console.log("Three");
+//     break;
+//   case 4:
+//     console.log("Four");
+//     break;
+
+//   default:
+//     console.log("Default");
+//     break;
+// }
+
+// while
+
+// syntax
+
+// while (condition) {
+  
+// }
+
+// eg:
+
+var g=0;
+while (g<10) {
+  console.log(" This is while loop : " + g);
+  g++;
+}
+
+// do-while
+
+// syntax
+// do {
+  
+// } while (condition);
+
+// eg:
+
+do {
+  console.log("G is greated than 10");
+  g++;
+} while (g<10);
+
+// For
+
+// for (var i = 0; i < 265; i++) {
+//   console.log("For Loop : " + i);
+
+
+  
+// }
+
+
+// result = []
+// for i in range(len(A)):
+
+//     row = [] # the new row in new matrix
+//     for j in range(len(B[0])):
+        
+//         product = 0 # the new element in the new row
+//         for v in range(len(A[i])):
+//             product += A[i][v] * B[v][j]
+//         row.append(product) # append sum of product into the new row
+        
+//     result.append(row) # append the new row into the final result
+
+
+// print(result)
+
+
+
