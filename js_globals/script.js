@@ -2,7 +2,7 @@
 // Datatypes
 // Declaration of variables
 // Operators
-// object
+// Object
 // Array
 // if
 // if-else
@@ -11,19 +11,20 @@
 // while
 // do-while
 // for
-
 // foreach
 // break
 // continue
 // functions
 // arrow function
 // scope
+
 // class
 
 // ==============================================
 // variables
 a = 10;
 b = 20;
+
 console.log("Variables : " + (a + b));
 console.log("Variabled Numbers" + (10 + 20));
 // ========================================================
@@ -230,4 +231,47 @@ do {
 // print(result)
 
 
+// foreach
+
+// syntax
+
+gopal=["Gopal","pavi","aishu","bhuvana","mohan"];
+
+gopal.forEach(element => {
+  console.log("For Each : " + element);
+});
+
+for(var i=0;i<gopal.length;i++){
+  console.log("For : " + gopal[i]);
+}
+
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  if (i === 6) { continue; }
+ console.log("this is continue : " + i);
+}
+
+// functions
+
+function add(num1,num2) {
+console.log("Addition of " + num1+ " and " + num2 + " is : "+ (num1+num2));  
+}
+
+function sub(num1,num2) {
+  console.log("Subsraction of " + num1+ " and " + num2 + " is : "+ (num1-num2));  
+  }
+
+  add(500,100);
+  sub(20,10);
+
+// arrow function
+
+  var arrow = (num1,num2)=>{
+    console.log("gopal");
+  }
+  
+  arrow();
+
+  // scope
 
