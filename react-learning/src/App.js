@@ -1,6 +1,7 @@
 
 import './App.css';
 import ConditionalRendering from './components/ConditionalRendering';
+import Events from './components/Events';
 import FunctionalComponent from './components/FunctionalComponent';
 import ListandKeys from './components/ListandKeys';
 import Props from './components/Props';
@@ -16,7 +17,8 @@ function App() {
  <Props name="pavi" age="21"/>
  <Props name="mohan" age="22"/> */}
  {/* <ConditionalRendering/> */}
- <ListandKeys/>
+ {/* <ListandKeys/> */}
+ <Events/>
     </div>
   );
 }
