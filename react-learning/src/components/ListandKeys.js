@@ -1,8 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function ListandKeys() {
     // const values=[1,2,3,4,5,6,7,8,9];
     const values=["gopal","aishu","pavi","mohan","gopal"];
+    const navigate=useNavigate();
 
     // const gopal=values.forEach(element => {
     //     return(
@@ -26,6 +28,10 @@ function ListandKeys() {
     <div style={{margin:"50px"}}>
   
       {data}
+
+      <button onClick={()=>{
+        navigate(-1);
+      }}>Go Back</button>
 
 
 

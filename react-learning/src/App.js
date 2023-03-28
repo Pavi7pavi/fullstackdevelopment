@@ -1,25 +1,37 @@
 
+import { Route, Router, Routes } from 'react-router-dom';
 import './App.css';
 import ConditionalRendering from './components/ConditionalRendering';
 import Events from './components/Events';
 import FunctionalComponent from './components/FunctionalComponent';
 import ListandKeys from './components/ListandKeys';
+import Nav from './components/Nav';
 import Props from './components/Props';
+import Refexample from './components/Refexample';
 
 
 
 function App() {
   
   return (
-    <div>
- {/* <FunctionalComponent/> */}
- {/* <Props name="gopal" age="20"/>
- <Props name="pavi" age="21"/>
- <Props name="mohan" age="22"/> */}
- {/* <ConditionalRendering/> */}
- {/* <ListandKeys/> */}
- <Events/>
-    </div>
+  //   <Routes>
+  //   <Route path="/" element={<Dashboard />}>
+  //     <Route
+  //       path="messages"
+  //       element={<DashboardMessages />}
+  //     />
+  //     <Route path="tasks" element={<DashboardTasks />} />
+  //   </Route>
+  //   <Route path="about" element={<AboutPage />} />
+  // </Routes>
+  <Routes>
+
+    <Route path="/" element={<Refexample/>}/>
+    <Route path="/nav" element={<Nav/>}/>
+    <Route path="/event" element={<Events/>}/>
+    <Route path="/list" element={<ListandKeys/>}/>
+    <Route path="/props" element={<Props/>}/>
+  </Routes>
   );
 }
 

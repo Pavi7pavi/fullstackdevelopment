@@ -1,8 +1,10 @@
 import { React, useState, useEffect } from "react";
+import { useNavigate, useNavigation } from "react-router-dom";
 
 function Events() {
   const [name, setName] = useState("Gopal");
   const [username, setUsername] = useState("");
+  const navigate=useNavigate();
 
   useEffect(() => {
     console.log("use effecxt called");
@@ -34,6 +36,9 @@ console.log(event.target.value);
 setUsername(event.target.value);
       }}/>
       <button onClick={changename}>change</button>
+      <button onClick={()=>{
+navigate("list")
+      }}>Go To List</button>
     </div>
   );
 }
